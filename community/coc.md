@@ -1,4 +1,4 @@
-Arquivolta expects users to follow the Arquivolta Code of Conduct (https://github.com/arquivolta/desktop/blob/main/CODE_OF_CONDUCT.md).
+Arquivolta expects users to follow the [Arquivolta Code of Conduct](https://github.com/arquivolta/desktop/blob/main/CODE_OF_CONDUCT.md).
 
 In short, we're glad you're here! But treating people with respect isn't Optional.
 
