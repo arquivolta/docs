@@ -1,71 +1,31 @@
-# What is MyProduct?
+# What is Arquivolta
 
-{% hint style="info" %}
-**Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
-{% endhint %}
+Arquivolta is an opinionated Linux distro built specifically for WSL2 users on Windows 11, as a customization of [Arch Linux](https://archlinux.org). Rather than being an operating system that _happens_ to work in WSL, Arquivolta is _designed_ to work specifically as a companion to Windows 11, built for modern developers as well as users who want to use a hassle-free, batteries included Linux environment.
 
-Here are a couple of examples of succinct overviews from products with really great docs:
+_(Fill in a really great screenshot here!)_
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+## How is Arquivolta different?
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+- Arquivolta installs via the [Arquivolta Installer](https://link/to/download/page), a Windows 11 app that installs everything for you, using your Windows install to answer all of the reduntant questions that other distros ask users.
 
-## Getting Started
+- Arquivolta is based on Arch Linux, which includes the [AUR](https://aur.archlinux.org), as well as [Yay](https://github.com/Jguer/yay). The AUR includes **everything** - no more fiddling with third-party repos or downloading packages to get popular software such as [Google Chrome](https://aur.archlinux.org/packages/google-chrome), [Spotify](https://aur.archlinux.org/packages/spotify), [Android Studio](https://aur.archlinux.org/packages/android-studio), or any other software package. If it's free, it's probably There.
 
-**Got 2 minutes?** Check out a video overview of our product:
+- Arquivolta is the only place that is committed to packaging as many WSL2-specific applications and utilities as possible, and making the most useful ones built-in. Features such as [Windows Hello](https://link/to/that/thing) work out of the box, and useful utilities such as [wslu](https://github.com/wslutilities/wslu) are just as easy to install as native Linux applications.
 
-{% embed url="https://www.loom.com/share/3bfa83acc9fd41b7b98b803ba9197d90" %}
+- For developers, SSH and HTTPS Git Credentials are configured to Just Work with the Windows-based installation you already have. No more entering SSH keyphrases over and over!
 
-{% hint style="info" %}
-**Good to know:** A succinct video overview is a great way to introduce folks to your product. Embed a Loom, Vimeo or YouTube video and you're good to go! We love this video from the fine folks at [Loom](https://loom.com) as a perfect example of a succinct feature overview.
-{% endhint %}
+- Also for developers, Arquivolta sets up [systemd](https://en.wikipedia.org/wiki/Systemd) by default. No more starting mysqld or Docker by hand, and setup guides written with Linux users in mind work more often.
 
-### Guides: Jump right in
+## What exactly does this do / how specifically is this different than Arch Linux?
 
-Follow our handy guides to get started on the basics as quickly as possible:
+All of these questions can be answered in the [Technical Differences](details/differences.md) section, down to the exact scripts that Arquivolta executes. In short, Arquivolta is Arch Linux with a few custom repos in-box, that is configured via information in Windows. Linux shouldn't need to ask questions like your preferred language or timezone in WSL, we already know that! The Arquivolta installer collects information like this and sets up the system for you.
 
-{% content-ref url="guides/creating-your-first-project.md" %}
-[creating-your-first-project.md](guides/creating-your-first-project.md)
-{% endcontent-ref %}
+## What telemetry does Arquivolta collect?
 
-{% content-ref url="guides/creating-your-first-task.md" %}
-[creating-your-first-task.md](guides/creating-your-first-task.md)
-{% endcontent-ref %}
+The Arquivolta installer collects crash reports and user-feedback via [Sentry](https://sentry.io)
 
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
-{% endcontent-ref %}
+## Getting Help / Contributing
 
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+#### [Join the Discord community!](https://discord.gg/yJHg3Khvnk)
 
-### Fundamentals: Dive a little deeper
-
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
-
-{% content-ref url="fundamentals/projects.md" %}
-[projects.md](fundamentals/projects.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/members.md" %}
-[members.md](fundamentals/members.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/task-lists.md" %}
-[task-lists.md](fundamentals/task-lists.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/tasks.md" %}
-[tasks.md](fundamentals/tasks.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
-{% endhint %}
+The Discord is a great way to get help, talk to the devs, as well as discuss cool ideas or new features!

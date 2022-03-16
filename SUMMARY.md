@@ -22,3 +22,4 @@
 
 - [Where to get help](community/support.md)
 - [Reporting security issues](community/security.md)
+- [Arquivolta Code of Conduct](community/coc.md)
