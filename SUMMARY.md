@@ -1,29 +1,24 @@
 # Table of contents
 
-- [What is MyProduct?](README.md)
+- [What is Arquivolta?](README.md)
+
+## Common Questions
+
+- [How is this different?](details/what-is-arch.md)
+- [What is the AUR?](details/aur.md)
+- [FAQ](details/faq.md)
+
+## Technical Details
+
+- [What Arquivolta does](details/differences.md)
+- [Development](details/development.md)
 
 ## Guides
 
-- [Creating your first project](guides/creating-your-first-project.md)
-- [Creating your first task](guides/creating-your-first-task.md)
-- [Advanced permissions](guides/advanced-permissions.md)
+- [Adding new projects to Arquivolta](guides/contributing.md)
+- [Migrating from Arch](guides/manual-repo.md)
 
-## Fundamentals
+## Community and Support
 
-- [Projects](fundamentals/projects.md)
-- [Members](fundamentals/members.md)
-- [Task Lists](fundamentals/task-lists.md)
-- [Tasks](fundamentals/tasks.md)
-
-## Use Cases
-
-- [For Designers](use-cases/for-designers/README.md)
-  - [Figma Integration](use-cases/for-designers/figma-integration.md)
-- [For Engineers](use-cases/for-engineers/README.md)
-  - [GitHub Integration](use-cases/for-engineers/github-integration.md)
-- [For Support](use-cases/for-support/README.md)
-  - [Intercom Integration](use-cases/for-support/intercom-integration.md)
-
-## Extras
-
-- [Sandwiches](extras/keyboard-shortcuts.md)
+- [Where to get help](community/support.md)
+- [Reporting security issues](community/security.md)
