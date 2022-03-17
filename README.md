@@ -8,7 +8,7 @@ _(Fill in a really great screenshot here!)_
 
 - Arquivolta installs via the [Arquivolta Installer](https://link/to/download/page), a Windows 11 app that installs everything for you, using your Windows install to answer all of the reduntant questions that other distros ask users.
 
-- Arquivolta is based on Arch Linux, which includes the [AUR](https://aur.archlinux.org), as well as [Yay](https://github.com/Jguer/yay). The AUR includes **everything** - no more fiddling with third-party repos or downloading packages to get popular software such as [Google Chrome](https://aur.archlinux.org/packages/google-chrome), [Spotify](https://aur.archlinux.org/packages/spotify), [Android Studio](https://aur.archlinux.org/packages/android-studio), or any other software package. If it's free, it's probably There.
+- Arquivolta is based on Arch Linux, which includes the [AUR](https://aur.archlinux.org), as well as [Yay](https://github.com/Jguer/yay). The AUR includes **everything** - no more fiddling with third-party repos or downloading packages to get popular software such as [Google Chrome](https://aur.archlinux.org/packages/google-chrome), [GPU-accelerated Tensorflow](https://archlinux.org/packages/community/x86_64/python-tensorflow-cuda), [Android Studio](https://aur.archlinux.org/packages/android-studio), or any other software package. If it's free, it's probably There.
 
 - Arquivolta is the only place that is committed to packaging as many WSL2-specific applications and utilities as possible, and making the most useful ones built-in. Features such as [Windows Hello](https://link/to/that/thing) work out of the box, and useful utilities such as [wslu](https://github.com/wslutilities/wslu) are just as easy to install as native Linux applications.
 
