@@ -11,12 +11,12 @@
 ## Technical Details
 
 - [What does Arquivolta add to Arch Linux?](details/differences.md)
-- [Development](details/development.md)
 
 ## Guides
 
-- [Adding new projects to Arquivolta](guides/contributing.md)
-- [Migrating from Arch](guides/manual-repo.md)
+- [Adding new projects to Arquivolta](guides/development.md)
+- [Manual Installation](guides/manual-repo.md)
+- [Migrating from Ubuntu](guides/migrate-home.md)
 
 ## Community and Support
 
