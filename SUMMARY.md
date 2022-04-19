@@ -4,13 +4,13 @@
 
 ## Common Questions
 
-- [How is this different?](details/what-is-arch.md)
-- [What is the AUR?](details/aur.md)
-- [FAQ](details/faq.md)
+- [Why Arch and not Ubuntu/Fedora?](details/what-is-arch.md)
+- [What is the AUR?](details/what-is-arch.md#foo)
+- [Other Questions](details/faq.md)
 
 ## Technical Details
 
-- [What Arquivolta does](details/differences.md)
+- [What does Arquivolta add to Arch Linux?](details/differences.md)
 - [Development](details/development.md)
 
 ## Guides
