@@ -22,5 +22,5 @@ The tl;dr; version is:
 - Set Arch Linux's locale to whatever locale Windows is using
 - Install `base`, `base-devel`, `arquivolta-base`, as well as developer tools such as Docker and tmux
 - Create a new user account, make sure they can use sudo, and use `/etc/wsl.conf` to set them as the default user
-- Build and install `yay`
+- Build and install `yay`, the tool for installing AUR packages
 - Shut down WSL so that we'll restart the distro as the new user account rather than `root` (`/etc/wsl.conf` only gets read when WSL is started)
