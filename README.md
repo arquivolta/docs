@@ -22,7 +22,7 @@ All of these questions can be answered in the [Technical Differences](details/di
 
 ## What telemetry does Arquivolta collect?
 
-The Arquivolta installer collects crash reports and user-feedback via [Sentry](https://sentry.io)
+onnec
 
 ## Getting Help / Contributing
 

@@ -5,7 +5,7 @@
 ## Common Questions
 
 - [Why Arch and not Ubuntu/Fedora?](details/what-is-arch.md)
-- [What is the AUR?](details/what-is-arch.md#foo)
+- [What is the AUR?](details/what-is-arch.md#aur)
 - [Other Questions](details/faq.md)
 
 ## Technical Details
