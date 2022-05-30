@@ -12,13 +12,13 @@ Arquivolta is both an installer, but also adds to the list of base packages prov
 
 ## How do I do $X
 
-| Ubuntu                   | Arquivolta / Arch    |
-| ------------------------ | -------------------- |
-| apt upgrade              | yay -Syu             |
-| apt upgrade package_name | yay -Sy package_name |
-| apt install package_name | yay -Sy package_name |
-| apt search package_name  | yay -Ss package_name |
-| apt remove package_name  | yay -R package_name  |
-| apt autoremove           | yay -Rdu             |
-| apt list installed       | yay -Q / yay -Qe     |
-| apt show package_name    | yay -Qi package_name |
+| Ubuntu                     | Arquivolta / Arch      |
+| -------------------------- | ---------------------- |
+| `apt upgrade`              | `yay -Syu`             |
+| `apt upgrade package_name` | `yay -Sy package_name` |
+| `apt install package_name` | `yay -Sy package_name` |
+| `apt search package_name`  | `yay -Ss package_name` |
+| `apt remove package_name`  | `yay -R package_name`  |
+| `apt autoremove`           | `yay -Rdu`             |
+| `apt list installed`       | `yay -Q` / `yay -Qe`   |
+| `apt show package_name`    | `yay -Qi package_name` |

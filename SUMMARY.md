@@ -5,7 +5,6 @@
 ## Common Questions
 
 - [Why Arch and not Ubuntu/Fedora?](details/what-is-arch.md)
-- [What is the AUR?](details/what-is-arch.md#aur)
 - [Other Questions](details/faq.md)
 
 ## Technical Details
@@ -14,9 +13,11 @@
 
 ## Guides
 
-- [Adding new projects to Arquivolta](guides/development.md)
 - [Manual Installation](guides/manual-repo.md)
+<!--
 - [Migrating from Ubuntu](guides/migrate-home.md)
+- [Adding new apps to Arquivolta extras](guides/development.md)
+  -->
 
 ## Community and Support
 
