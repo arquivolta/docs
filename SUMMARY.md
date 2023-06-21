@@ -10,6 +10,7 @@
 ## Technical Details
 
 - [What does Arquivolta add to Arch Linux?](details/differences.md)
+- [Core Package List](details/packages.md)
 
 ## Guides
 
