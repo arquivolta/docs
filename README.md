@@ -6,7 +6,7 @@ _(Fill in a really great screenshot here!)_
 
 ## How is Arquivolta different?
 
-- Arquivolta installs via the [Arquivolta Installer](https://link/to/download/page), a Windows 11 app that installs everything for you, using your Windows install to answer all of the reduntant questions that other distros ask users.
+- Arquivolta installs via the [Arquivolta Installer](https://github.com/arquivolta/desktop/releases/tag/v0.3.6), a Windows 11 app that installs everything for you, using your Windows install to answer all of the reduntant questions that other distros ask users.
 
 - Arquivolta is based on Arch Linux, which includes the [AUR](https://aur.archlinux.org), as well as [Yay](https://github.com/Jguer/yay). The AUR includes **everything** - no more fiddling with third-party repos or downloading packages to get popular software such as [Google Chrome](https://aur.archlinux.org/packages/google-chrome), [GPU-accelerated Tensorflow](https://archlinux.org/packages/community/x86_64/python-tensorflow-cuda), [Android Studio](https://aur.archlinux.org/packages/android-studio), or any other software package. If it's free, it's probably There.
 
