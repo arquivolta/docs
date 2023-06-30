@@ -22,7 +22,7 @@ All of these questions can be answered in the [Technical Differences](details/di
 
 ## What telemetry does Arquivolta collect?
 
-onnec
+The Arquivolta installer uses [Sentry](https://sentry.io) to collect crash reports. Package repos have no telemetry data being collected, and the installed distro itself tracks no information 
 
 ## Getting Help / Contributing
 
